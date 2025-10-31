@@ -28,11 +28,16 @@ This repository contains Python solutions to 100 classic programming problems �
 
 ## 🗂️ Folder Structure
 
----
+### 📁 Folder List
 
-## ⚙️ How to Run
-
-1. **Clone this repository:**
-   ```bash
-   git clone https://github.com/meowsumit/100-Codes.git
-   cd 100-Codes
+- 01-Positive or Negative number
+- 02-Even or Odd number
+- 03-Sum of First N Natural numbers
+- 04-Sum of N natural numbers
+- 05-Sum of numbers in a given range
+- 06-Greatest of two number
+- 07-Greatest of the Three numbers
+- 08-Leap year or not
+- 09-Prime number
+- 10-Prime number within a given range
+- 11-Sum of digits of a number
