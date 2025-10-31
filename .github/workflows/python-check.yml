@@ -1,0 +1,30 @@
+name: Python Code Check 🐍
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  run-python-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies (if any)
+        run: |
+          echo "No dependencies yet :)"
+
+      - name: Run simple check
+        run: |
+          python --version
+          echo "✅ Python setup complete!"
+          echo "Your code is ready to rock 🚀"
