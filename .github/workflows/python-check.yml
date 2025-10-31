@@ -19,12 +19,16 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Install dependencies (if any)
-        run: |
-          echo "No dependencies yet :)"
+      - name: Check Python version
+        run: python --version
 
-      - name: Run simple check
+      - name: Check syntax of all .py files
         run: |
-          python --version
-          echo "✅ Python setup complete!"
-          echo "Your code is ready to rock 🚀"
+          echo "🔍 Checking Python files for syntax errors..."
+          for file in $(find . -name "*.py"); do
+            python -m py_compile "$file" || exit 1
+          done
+          echo "✅ All Python files are valid!"
+
+      - name: Success message
+        run: echo "🎉 Workflow completed successfully!"
