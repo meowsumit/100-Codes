@@ -5,6 +5,7 @@
 [![GitHub Stars](https://img.shields.io/github/stars/meowsumit/100-Codes?style=social)](https://github.com/meowsumit/100-Codes/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/meowsumit/100-Codes?style=social)](https://github.com/meowsumit/100-Codes/network/members)
 
+
 A collection of **100 essential Python coding problems** inspired by [PrepInsta’s 100 Codes](https://prepinsta.com/top-100-codes/).  
 This repository is a personal project to **master coding fundamentals** and strengthen **problem-solving logic** using clean and efficient Python code.
 
