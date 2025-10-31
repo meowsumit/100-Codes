@@ -28,4 +28,11 @@ This repository contains Python solutions to 100 classic programming problems �
 
 ## 🗂️ Folder Structure
 
+---
 
+## ⚙️ How to Run
+
+1. **Clone this repository:**
+   ```bash
+   git clone https://github.com/meowsumit/100-Codes.git
+   cd 100-Codes
